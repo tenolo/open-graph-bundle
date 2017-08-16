@@ -4,6 +4,7 @@ services:
 
     tenolo_open_graph.renderer:
         class: Tenolo\Bundle\OpenGraphBundle\Renderer\OpenGraphRenderer
+        arguments: ['@tenolo_open_graph.manager']
 
     tenolo_open_graph.twig_extension:
         class: Tenolo\Bundle\OpenGraphBundle\Twig\Extension\OpenGraphExtension
