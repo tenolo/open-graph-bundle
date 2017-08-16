@@ -2,7 +2,6 @@
 
 namespace Tenolo\Bundle\OpenGraphBundle\Renderer;
 
-use Tenolo\Bundle\OpenGraphBundle\Exception\NotSupported;
 use Tenolo\Bundle\OpenGraphBundle\Manager\MapManagerInterface;
 use Tenolo\Bundle\OpenGraphBundle\OpenGraph\DocumentWriter;
 
@@ -48,7 +47,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
             return $document->render();
         }
 
-        throw new NotSupported($data, $this->mapManager);
+        return '';
     }
 
     /**
