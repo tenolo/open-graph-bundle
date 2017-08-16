@@ -8,13 +8,13 @@ use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
 /**
- * Class TenoloOpenGraph
+ * Class TenoloOpenGraphExtension
  *
  * @package Tenolo\Bundle\OpenGraphBundle\DependencyInjection
  * @author  Nikita Loges
  * @company tenolo GbR
  */
-class TenoloOpenGraph extends ConfigurableExtension
+class TenoloOpenGraphExtension extends ConfigurableExtension
 {
 
     /**
