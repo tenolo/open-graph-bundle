@@ -1,0 +1,65 @@
+{
+    "name": "tenolo/open-graph-bundle",
+    "description": "A Symfony OpenGraph bundle",
+    "keywords": [
+        "opengraph",
+        "open",
+        "graph",
+        "og",
+        "symfony",
+        "bundle",
+        "tenolo"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "https://github.com/tenolo/open-graph-bundle",
+    "support": {
+        "email": "support@shapecode.de",
+        "issues": "https://github.com/tenolo/open-graph-bundle/issues",
+        "source": "https://github.com/tenolo/open-graph-bundle/releases",
+        "wiki": "https://github.com/tenolo/open-graph-bundle/wiki"
+    },
+    "authors": [
+        {
+            "name": "tenolo - Robert Bernis, Johannes Herberhold GbR",
+            "email": "info@tenolo.de",
+            "homepage": "http://tenolo.de"
+        },
+        {
+            "name": "Nikita Loges",
+            "email": "n.loges@tenolo.de"
+        }
+    ],
+    "require": {
+        "php": "~5.5|~7.0",
+
+        "symfony/framework-bundle": "~2.8|~3.0",
+        "symfony/config": "~2.8|~3.0",
+        "symfony/http-kernel": "~2.8|~3.0",
+        "symfony/dependency-injection": "~2.8|~3.0",
+        "symfony/twig-bundle": "~2.8|~3.0",
+
+        "twig/twig": "~1.34|~2.0",
+        "euskadi31/opengraph": "~1.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "~2.8|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tenolo\\Bundle\\OpenGraphBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tenolo\\Bundle\\OpenGraphBundle\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
