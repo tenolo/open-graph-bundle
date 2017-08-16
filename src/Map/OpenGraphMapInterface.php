@@ -18,8 +18,11 @@ interface OpenGraphMapInterface
     /**
      * @param DocumentWriterInterface|DocumentWriter $document
      * @param mixed                                  $data
+     * @param array                                  $additional
+     *
+     * @return mixed
      */
-    public function map(DocumentWriterInterface $document, $data);
+    public function map(DocumentWriterInterface $document, $data, array $additional = []);
 
     /**
      * @param mixed $data

@@ -30,7 +30,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
     /**
      * @inheritdoc
      */
-    public function render($data)
+    public function render($data, array $additional = [])
     {
         $document = null;
 
@@ -40,7 +40,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
                     $document = $this->createDocument();
                 }
 
-                $map->map($document, $data);
+                $map->map($document, $data, $additional);
             }
         }
 
