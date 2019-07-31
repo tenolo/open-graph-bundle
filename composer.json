@@ -39,7 +39,7 @@
         "symfony/dependency-injection": "~3.4|~4.0",
         "symfony/twig-bundle": "~3.4|~4.0",
 
-        "twig/twig": "~1.34|~2.0",
+        "twig/twig": "~1.42|~2.11|~3.0",
         "euskadi31/opengraph": "~1.0"
     },
     "autoload": {
