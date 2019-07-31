@@ -12,7 +12,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\DependencyInjection
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class TenoloOpenGraphExtension extends ConfigurableExtension
 {

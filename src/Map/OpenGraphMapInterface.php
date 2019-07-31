@@ -10,7 +10,7 @@ use Tenolo\Bundle\OpenGraphBundle\OpenGraph\DocumentWriterInterface;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\Map
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 interface OpenGraphMapInterface
 {

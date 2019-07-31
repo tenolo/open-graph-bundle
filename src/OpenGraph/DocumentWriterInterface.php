@@ -7,7 +7,7 @@ namespace Tenolo\Bundle\OpenGraphBundle\OpenGraph;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\OpenGraph
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 interface DocumentWriterInterface
 {

@@ -10,7 +10,7 @@ use Tenolo\Bundle\OpenGraphBundle\OpenGraph\DocumentWriter;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\Renderer
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class OpenGraphRenderer implements OpenGraphRendererInterface
 {

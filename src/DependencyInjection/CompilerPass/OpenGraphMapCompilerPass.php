@@ -11,7 +11,7 @@ use Symfony\Component\DependencyInjection\Reference;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\DependencyInjection\CompilerPass
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class OpenGraphMapCompilerPass implements CompilerPassInterface
 {

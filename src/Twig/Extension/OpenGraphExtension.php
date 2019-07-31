@@ -12,7 +12,7 @@ use Twig\TwigFunction;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\Twig\Extension
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class OpenGraphExtension extends AbstractExtension
 {

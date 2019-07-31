@@ -13,7 +13,7 @@ use Tenolo\Bundle\OpenGraphBundle\Map\OpenGraphMapInterface;
  *
  * @package Tenolo\Bundle\OpenGraphBundle
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class TenoloOpenGraphBundle extends Bundle
 {

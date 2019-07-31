@@ -9,7 +9,7 @@ use Opengraph\Writer;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\OpenGraph
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class DocumentWriter extends Writer implements DocumentWriterInterface
 {

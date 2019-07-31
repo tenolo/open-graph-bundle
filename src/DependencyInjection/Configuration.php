@@ -10,7 +10,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\DependencyInjection
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 class Configuration implements ConfigurationInterface
 {

@@ -7,7 +7,7 @@ namespace Tenolo\Bundle\OpenGraphBundle\Renderer;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\Renderer
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 interface OpenGraphRendererInterface
 {

@@ -9,7 +9,7 @@ use Tenolo\Bundle\OpenGraphBundle\Map\OpenGraphMapInterface;
  *
  * @package Tenolo\Bundle\OpenGraphBundle\Manager
  * @author  Nikita Loges
- * @company tenolo GbR
+ * @company tenolo GmbH & Co. KG
  */
 interface MapManagerInterface
 {
