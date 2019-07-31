@@ -29,7 +29,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
     /**
      * @inheritdoc
      */
-    public function render($data, array $additional = [])
+    public function render($data, array $additional = []): string
     {
         $document = null;
 
@@ -53,7 +53,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
     /**
      * @return MapManagerInterface
      */
-    protected function getMapManager()
+    protected function getMapManager(): MapManagerInterface
     {
         return $this->mapManager;
     }
@@ -61,7 +61,7 @@ class OpenGraphRenderer implements OpenGraphRendererInterface
     /**
      * @return DocumentWriter
      */
-    protected function createDocument()
+    protected function createDocument(): DocumentWriter
     {
         return new DocumentWriter();
     }

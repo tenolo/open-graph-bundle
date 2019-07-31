@@ -29,5 +29,5 @@ interface OpenGraphMapInterface
      *
      * @return bool
      */
-    public function supports($data);
+    public function supports($data): bool;
 }

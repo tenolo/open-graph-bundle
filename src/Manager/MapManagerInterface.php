@@ -17,10 +17,10 @@ interface MapManagerInterface
     /**
      * @param OpenGraphMapInterface $map
      */
-    public function register(OpenGraphMapInterface $map);
+    public function register(OpenGraphMapInterface $map): void;
 
     /**
      * @return OpenGraphMapInterface[]
      */
-    public function getMaps();
+    public function getMaps(): array;
 }

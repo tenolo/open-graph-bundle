@@ -44,7 +44,7 @@ class OpenGraphExtension extends AbstractExtension
      *
      * @return string
      */
-    public function renderDocument(Writer $opengraph)
+    public function renderDocument(Writer $opengraph): string
     {
         return $opengraph->render();
     }

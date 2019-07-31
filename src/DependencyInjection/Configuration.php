@@ -16,7 +16,7 @@ class Configuration implements ConfigurationInterface
 {
 
     /** @var string  */
-    const ROOT_NODE = 'tenolo_open_graph';
+    public const ROOT_NODE = 'tenolo_open_graph';
 
     /**
      * @inheritDoc

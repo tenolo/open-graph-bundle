@@ -20,7 +20,7 @@ class MapManager implements MapManagerInterface
     /**
      * @param OpenGraphMapInterface $map
      */
-    public function register(OpenGraphMapInterface $map)
+    public function register(OpenGraphMapInterface $map): void
     {
         $this->maps[] = $map;
     }
@@ -28,7 +28,7 @@ class MapManager implements MapManagerInterface
     /**
      * @return OpenGraphMapInterface[]
      */
-    public function getMaps()
+    public function getMaps(): array
     {
         return $this->maps;
     }

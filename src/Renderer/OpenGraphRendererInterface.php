@@ -17,5 +17,5 @@ interface OpenGraphRendererInterface
      *
      * @return string
      */
-    public function render($data);
+    public function render($data): string;
 }
