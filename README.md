@@ -1,5 +1,13 @@
-Tenolo OpenGraphBundle
-=======================================
+[![tenolo](https://content.tenolo.com/tenolo.png)](https://tenolo.de)
+
+[![PHP Version](https://img.shields.io/packagist/php-v/tenolo/open-graph-bundle.svg)](https://packagist.org/packages/tenolo/open-graph-bundle)
+[![Latest Stable Version](https://img.shields.io/packagist/v/tenolo/open-graph-bundle.svg?label=stable)](https://packagist.org/packages/tenolo/open-graph-bundle)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/tenolo/open-graph-bundle.svg?label=unstable)](https://packagist.org/packages/tenolo/open-graph-bundle)
+[![Total Downloads](https://img.shields.io/packagist/dt/tenolo/open-graph-bundle.svg)](https://packagist.org/packages/tenolo/open-graph-bundle)
+[![Total Downloads](https://img.shields.io/packagist/dm/tenolo/open-graph-bundle.svg)](https://packagist.org/packages/tenolo/open-graph-bundle)
+[![License](https://img.shields.io/packagist/l/tenolo/open-graph-bundle.svg)](https://packagist.org/packages/tenolo/open-graph-bundle)
+
+# OpenGraphBundle
 
 The TenoloOpenGraphBundle is a simple way to improve how you manage OpenGraph
 into your Symfony2 application.
@@ -14,8 +22,7 @@ map**, a service able to create the OpenGraph document for your entity.
 
 It also works with any other type of data.
 
-Installation
-------------
+## Installation
 
 Installation is very quick:
 
