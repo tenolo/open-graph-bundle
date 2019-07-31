@@ -1,13 +1,14 @@
 services:
-    tenolo_open_graph.manager:
-        class: Tenolo\Bundle\OpenGraphBundle\Manager\MapManager
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: true
 
-    tenolo_open_graph.renderer:
-        class: Tenolo\Bundle\OpenGraphBundle\Renderer\OpenGraphRenderer
-        arguments: ['@tenolo_open_graph.manager']
+    Tenolo\Bundle\OpenGraphBundle\Manager\:
+        resource: '../../Manager/*'
 
-    tenolo_open_graph.twig_extension:
-        class: Tenolo\Bundle\OpenGraphBundle\Twig\Extension\OpenGraphExtension
-        arguments: ['@tenolo_open_graph.renderer']
-        tags:
-            - { name: twig.extension }
+    Tenolo\Bundle\OpenGraphBundle\Renderer\:
+        resource: '../../Renderer/*'
+
+    Tenolo\Bundle\OpenGraphBundle\Twig\Extension\:
+        resource: '../../Twig/Extension/*'
