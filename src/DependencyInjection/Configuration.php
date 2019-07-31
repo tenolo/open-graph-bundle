@@ -14,13 +14,24 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  */
 class Configuration implements ConfigurationInterface
 {
+
+    /** @var string  */
+    const ROOT_NODE = 'tenolo_open_graph';
+
     /**
      * @inheritDoc
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('tenolo_open_graph');
+        $treeBuilder = new TreeBuilder(static::ROOT_NODE);
+
+        if (method_exists($treeBuilder, 'getRootNode')) {
+            // Symfony 4.2 +
+            $rootNode = $treeBuilder->getRootNode();
+        } else {
+            // Symfony 4.1 and below
+            $rootNode = $treeBuilder->root(static::ROOT_NODE);
+        }
 
         return $treeBuilder;
     }
