@@ -21,7 +21,7 @@ class OpenGraphMapCompilerPass implements CompilerPassInterface
      */
     public function process(ContainerBuilder $container)
     {
-        $definition = $container->getDefinition('tenolo_open_graph.manager');
+        $definition = $container->findDefinition('tenolo_open_graph.manager');
         $taggedServices = $container->findTaggedServiceIds('tenolo_open_graph.map');
 
         foreach ($taggedServices as $id => $attributes) {
